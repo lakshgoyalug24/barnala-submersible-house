@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Barnala Submersible House</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <Li><a href="products.html" >Products</a></Li>
+                <li><a href="faq.html">About Us</a></li>
+                <Li><a href="services.html">Services</a></Li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="about1">
+            <div class="about1-container">
+
+                <div class="about1-text">
+                    <h2>About Barnala Submersible House</h2>
+                        <p>
+                Barnala Submersible House is a trusted wholesale dealer of high-quality 
+                pumps and motors. We provide reliable pumping solutions for agriculture, 
+                residential, industrial and commercial applications.
+                        </p>
+
+                        <p>
+                With years of experience in the industry, we offer durable products,
+                competitive pricing and excellent service to our customers.
+                        </p>
+                        <p>
+At Barnala Submersible House, we are committed to delivering not just products but complete pumping solutions tailored to our customers’ needs. Our team ensures proper guidance in selecting the right pump based on usage, water depth, and efficiency requirements. We also focus on long-term reliability, energy efficiency, and customer satisfaction, making us a dependable choice for both small-scale and large-scale applications.
+</p>
+
+                        
+                </div>
+
+                <div class="about1-image">
+                    <img src="front.png" alt="">
+                </div>
+
+            </div>
+        </section>
+    <h1 class="faq-title">Frequently Asked Questions</h1>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">What types of pumps do you sell?</button>
+            <div class="faq-answer">
+                <p>We supply LUBI-made Domestic ,Industrial ,Agriculture ,Fire Fighting Pumps and many more.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you help in selecting the right pump?</button>
+            <div class="faq-answer">
+                <p>Yes. Based on your requirement we help choose the correct pump power and model.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you provide repair service?</button>
+            <div class="faq-answer">
+                <p>Yes,we have an authorized service center in Barnala, we assist customers with proper pump repair and maintenance.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Where is your shop located?</button>
+            <div class="faq-answer">
+                <p>  Barnala Submersible House, Baba Deep Singh Nagar (Gali no.6), Handiaya Rd, Barnala, Punjab 148101</p>
+            </div>
+        </div>
+
+</div>
+<footer class="footer">
+    © 2026 Barnala Submersible House | Since 2002
+</footer>
+<script>
+const questions = document.querySelectorAll(".faq-question");
+
+questions.forEach(question => {
+    question.addEventListener("click", () => {
+        const answer = question.nextElementSibling;
+
+        if(answer.style.display === "block"){
+            answer.style.display = "none";
+        } else {
+            answer.style.display = "block";
+        }
+    });
+});
+</script>
+</body>
+</html>
